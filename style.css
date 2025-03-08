@@ -1,0 +1,30 @@
+:root {
+    --clr-dark: #33e20c;
+    --clr-light: #9d09ec;
+    --clr-accent: #7e4b26;
+  },
+  ::before,
+  :after {
+    box-sizing: border-box;
+  }
+  body {
+    margin: 3em 0 0 0;
+    padding: 1em;
+    line-height: 1.6;
+    word-spacing: 2.4px;
+    font-family: 'Roboto', sans-serif;
+    color: var(--clr-dark);
+    background-color: var(--clr-light);
+  }
+  .container {
+    width: 80%;
+    margin: 0 auto;
+    border: 10px solid var(--clr-dark);
+  }
+  .item {
+    padding: 0.5em;
+    background-color: #13e66e;
+    font-weight: 700;
+    color: var(--clr-light);
+    border: 10px solid var(--clr-accent);
+  }
